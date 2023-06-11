@@ -166,7 +166,7 @@ ul {
 #banner-bottom img {
     width: 100px;
     margin: 0;
-    padding:  40px 0 40px 525px;
+    padding:  35px 0;
    
 }
 
@@ -176,6 +176,8 @@ ul {
     height: 100px;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
   
     
 }

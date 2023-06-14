@@ -3,12 +3,12 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #171717;
     color: white;
     font-family: sans-serif;
   }
   
-  .box {
+  .box:hover {
+    position: relative;
     width: 200px;
     height: 300px;
     border: 1px solid white;
@@ -20,4 +20,45 @@ body {
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 5px 5px 20px 5px #8F8F8F;
+  
   }
+
+  .child {
+    position: absolute;
+    display: flex;
+    background-color: red;
+    border-radius: 20px;
+    width: 30%;
+    height: 12%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: 15px 10px 125px 125px; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    transition: background 4s, transform 1s;
+    }
+
+    .pulsanti-bottom {
+      display: flex;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      position: absolute;
+      background-color: rgb(255, 255, 255);
+      border-radius: 20px;
+      width: 40%;
+      height: 12%;
+      left: 0px;
+      right: 0px;      
+      bottom: 0px;
+      margin: 125px 125px 10px 10px; 
+      color: black;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: background 4s, transform 1s;
+
+    }
